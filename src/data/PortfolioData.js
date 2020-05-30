@@ -18,8 +18,7 @@ const PortfolioCardsList = [
             img:  "./img/portfolio/Restaurant API.png",
             text: `RestaurantAPI is a RESTful API designed to offer flexible endpoints for data manipulation. 
             With endpoints targeting customer data, restaurant branch data and staff data, RestaurantAPI provides methods 
-            to add data to the database with minimal hassle, and request data from the database conveniently. Written in Nodejs, 
-            the asynchronous nature of Node allows for stateless communication and the package-based system of node allows us to quickly build, test,...`
+            to add data to the database with minimal hassle, and request data from the database conveniently...`
       },
       {
             id: 1,

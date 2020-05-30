@@ -91,6 +91,10 @@ body::-webkit-scrollbar-track {
   }
 }
 
+.courses-bg:hover {
+  filter: brightness(90%)
+}
+
 
 
 
