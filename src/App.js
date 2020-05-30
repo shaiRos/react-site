@@ -9,6 +9,7 @@ import About from "./About"
 import Portfolios from "./Portfolios"
 import PortfolioModal from "./PortfolioModal"
 import Footer from "./Footer.js"
+import Courses from "./Courses"
 
 import { modalList } from "./data/PortfolioData"
 
@@ -32,7 +33,7 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar/>
-			<div id="Main-Content" className="d-flex flex-wrap flex-row-reverse" style={{ paddingTop: "10vh", marginTop: "-10vh" }}>
+			<div id="Main-Content" className="d-flex flex-wrap" style={{ paddingTop: "10vh", marginTop: "-10vh" }}>
 				<About />
 				<Portfolios toggleModal={toggleModal}/>
 				<PortfolioModal 
@@ -41,6 +42,7 @@ function App() {
 					modalVisible={modalVisible} 
 					content={modalContent}
 				/>
+				<Courses />
 			</div>
 			<Footer/>
 		</div>
