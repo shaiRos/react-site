@@ -70,6 +70,9 @@ body::-webkit-scrollbar-track {
     padding: 1rem !important;
     font-size: 1rem;
   }   
+  .courses-bg {
+    all: unset;
+  }
 }
 
 @media (min-width: 450px) {
@@ -92,7 +95,7 @@ body::-webkit-scrollbar-track {
 }
 
 .courses-bg:hover {
-  filter: brightness(90%)
+  filter: brightness(90%);
 }
 
 
