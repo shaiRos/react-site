@@ -77,7 +77,19 @@ function RestaurantAPIModal() {
                         Our API server was created using node.js and express that basically connected to our database management system (mySQL) by the use of queries. 
                         Before implementation, we had to thoroughly plan what endpoints we will have, their attributes and how they connect to each other. 
                         We used methods such as creating an entity relationship diagram and eventually transforming that into a relational model. 
-
+                        <br/><br/>
+                        <b style={{fontSize: "2rem", fontFamily: "'Gentium Book Basic', serif"}}>My Role</b><br/>
+                        Each person in the team took up endpoints to work on writing the code, documentation in postman, and creating the demo videos. I was in charge of managing the endpoints Membership, Order and Dish.
+                        <br/><br/>
+                        <b style={{fontSize: "2rem", fontFamily: "'Gentium Book Basic', serif"}}>Project Difficulties</b><br/>
+                        Until then, I had no experience on node.js much less writing in javascript. One of our team members created a template for us to start on, creating the endpoint, making sure the routes
+                        are defined so that we can see the results in the web and in postman. It helped me a lot to get a start on it but the first few days definitely involved a lot of google searching not just because
+                        of all the javascript weirdness, I also had to learn how node.js + express received sql responses, how to modify the response and turn it into JSON format, how to send the appropriate response, etc. 
+                        <br/><br/>
+                        The most difficult (and the most fun part for me) was figuring out how complicated the sql queries can be. For example, in the api, you can update the quantity of a dish that a customer ordered.
+                        It sounds simple but there are things to consider in the database. You have to update the billing amount in the order and update the total number of orders of this dish. This involves dish, order, member, and a couple of tables that are linked to those endpoints.
+                        The longer I worked on it, the more I added more complexity (some of it probably unecessary). But I was having fun writing the sql queries and seeing it work perfectly and all laid out perfectly in JSON format like how I wanted it.
+                        The result? 9 stored procedures in the database, and a full documentation with examples in postman. This was a fun project to work on due to the intricate details and I would be more than glad to work on this type of work. 
                   </p>
                   <b style={{fontSize: "1.1rem"}}>Demonstration of one of the endpoints, ORDER which is one of the endpoints I created:</b><br/>
                   <div class="embed-responsive embed-responsive-16by9">
@@ -123,9 +135,11 @@ function TutorFinderModal() {
                   {/* <!-- Portfolio Modal - Title --> */}
                   {/* <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tutor Finder</h2> */}
                   {/* <!-- Portfolio Modal - Image --> */}
+                  <b>Full Portfolio for this project: </b><a href="https://www.behance.net/HCIProject" target="_blank" rel="noopener noreferrer">behance.net/HCIProject</a>
                   <img className="img-fluid rounded mb-5" src={require("../img/portfolio/TutorFinder/TutorFinderFront.png")} alt="" style={{width:600}}/>
                   {/* <!-- Portfolio Modal - Text --> */}
-                  <p className="mb-5 portfolio-content-text">
+                  
+                  <p className="mb-5 portfolio-content-text text-left">
             
                         Course project for the Human Computer Interactions I course at University of Calgary. Created as a 6-group term project. The goal was to learn about the User-Centered Design Process; 
                         Investigation, Ideating, Prototyping, and Evaluating. We created a mobile app interface with only front-end functionality for our high-fidelity prototype with Adobe XD. This was a really fun experience
@@ -136,12 +150,40 @@ function TutorFinderModal() {
                         <b><a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/36aef35f-3c48-4546-954d-632beef2ca21/Dashboard" target="_blank" rel="noopener noreferrer">You can try our high-fidelity prototype here! (Fully clickable).</a>
                         </b> It's fully functional (front-end. The project only focused on the user-interface so the app doesn't receive and store data. The screens are set based
                         on the design we created)
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <b>Full Portfolio for this project: </b><a href="https://www.behance.net/HCIProject" target="_blank" rel="noopener noreferrer">behance.net/HCIProject</a>
-                        <br/>
+                        <br/><br/>
+
+                        <b style={{fontSize: "2rem", fontFamily: "'Gentium Book Basic', serif"}}>What I worked on</b><br/>
+                        *Follow the lists to interact with it
+                        <ul>
+                              <li><a 
+                                    href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/66d9df69-26c0-4de3-973e-39f2451238b7/MyRequests-page-main"
+                                    target="_blank" rel="noopener noreferrer">myRequests page</a></li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/f3d63ad7-8e76-4e7a-9d12-e02a0b71635d/Accept-tutors-view-main"
+                                    target="_blank" rel="noopener noreferrer">Accepting tutors page</a>
+                              </li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/436af6aa-25df-4125-9d3e-448cba5d5b9f/Create-Request-main"
+                                    target="_blank" rel="noopener noreferrer">Creating a request</a>
+                              </li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/9d31a106-6931-4746-9838-272af41fc0d2/Notifications-main"
+                                    target="_blank" rel="noopener noreferrer">Notifications page</a>
+                              </li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/56dbc4f7-b311-4502-9554-9a715eb5da92/Network-main"
+                                    target="_blank" rel="noopener noreferrer">Networks page</a>
+                              </li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/36aef35f-3c48-4546-954d-632beef2ca21/"
+                                    target="_blank" rel="noopener noreferrer">Sidebar (click the navigation menu on the top right)</a>
+                              </li>
+                              <li>
+                                    <a href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/36aef35f-3c48-4546-954d-632beef2ca21/"
+                                    target="_blank" rel="noopener noreferrer">Navigation menu and icons at the top</a>
+                              </li>
+                        </ul>
+
                         <br/>
                         Here's an overview of our high-fidelity prototype <a href="https://www.behance.net/gallery/88815569/High-Fidelity-Prototype-Presentation" target="_blank" rel="noopener noreferrer">behance.net/gallery/88815569/High-Fidelity-Prototype-Presentation</a>
                         <img className="img-fluid rounded mb-5" src={require("../img/portfolio/TutorFinder/Course Postings.jpg")} alt="Course Postings.jpg"/>
