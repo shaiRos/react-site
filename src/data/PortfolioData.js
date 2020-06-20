@@ -2,6 +2,7 @@ import React from "react"
 
 // list for calling a function by it's id
 // id must match on what was given on PortfolioCardsList below
+// and names must match their corresponding function names
 const modalList =  {
       0: RestaurantAPIModal,
       1: TutorFinderModal,
@@ -93,11 +94,16 @@ function RestaurantAPIModal() {
                   </p>
                   <b style={{fontSize: "1.1rem"}}>Demonstration of one of the endpoints, ORDER which is one of the endpoints I created:</b><br/>
                   <div class="embed-responsive embed-responsive-16by9">
-                        <iframe title="Restaurant API: Order endpoint Demonstration" class="embed-responsive-item" src="https://www.youtube.com/embed/P7B5R49yjqE" allowfullscreen></iframe>
+                        <iframe 
+                              title="Restaurant API: Order endpoint Demonstration" 
+                              class="embed-responsive-item" 
+                              src="https://www.youtube.com/embed/P7B5R49yjqE" 
+                              allowfullscreen="allowfullscreen">
+                        </iframe>
                   </div>
                   <div class="portfolio-content-text">
                         <br/><br/>
-                        We have all of the demonstration videos for all the endpoints at our <a href="https://www.youtube.com/channel/UCuDVSD82jo1h6DfmTF42U9Q/" target="_blank" rel="noopener noreferrer">YOUTUBE CHANNEL</a>
+                        We have all of the demonstration videos for all the endpoints at our <a href="https://www.youtube.com/channel/UCuDVSD82jo1h6DfmTF42U9Q/?rel=0" target="_blank" rel="noopener noreferrer">YOUTUBE CHANNEL</a>
                         <br/><br/><b style={{fontSize: "1.5rem"}}>Postman Full API Documentation for all endpoints:</b><br/>
                         <ul style={{display: "inline-block"}}>
                           <li><a href="https://documenter.getpostman.com/view/11015275/Szf6XTzX" target="_blank" rel="noopener noreferrer">Branch</a></li>
@@ -153,7 +159,7 @@ function TutorFinderModal() {
                         <br/><br/>
 
                         <b style={{fontSize: "2rem", fontFamily: "'Gentium Book Basic', serif"}}>What I worked on</b><br/>
-                        *Follow the lists to interact with it
+                        *Follow the link to interact with it
                         <ul>
                               <li><a 
                                     href="https://xd.adobe.com/view/b754883f-09ca-4932-4cb7-bb36032a0be1-c165/screen/66d9df69-26c0-4de3-973e-39f2451238b7/MyRequests-page-main"
