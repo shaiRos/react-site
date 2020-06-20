@@ -12,6 +12,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `npm run deploy`
+
+deploys the page into the github branch where the github pages will be updated. will also run the predeploy script
+where it executes npm run build. (Found in package.json)
+
+## Scripts not in use
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
