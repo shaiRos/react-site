@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.77e43c63.chunk.css",
-    "main.js": "./static/js/main.99f06ab9.chunk.js",
-    "main.js.map": "./static/js/main.99f06ab9.chunk.js.map",
+    "main.css": "./static/css/main.5a29de4c.chunk.css",
+    "main.js": "./static/js/main.4a2ea26d.chunk.js",
+    "main.js.map": "./static/js/main.4a2ea26d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.4d704fb3.js",
     "runtime-main.js.map": "./static/js/runtime-main.4d704fb3.js.map",
     "static/css/2.b4f72424.chunk.css": "./static/css/2.b4f72424.chunk.css",
-    "static/js/2.63ba7fee.chunk.js": "./static/js/2.63ba7fee.chunk.js",
-    "static/js/2.63ba7fee.chunk.js.map": "./static/js/2.63ba7fee.chunk.js.map",
+    "static/js/2.7585492b.chunk.js": "./static/js/2.7585492b.chunk.js",
+    "static/js/2.7585492b.chunk.js.map": "./static/js/2.7585492b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c2e71f423cd50d2c33a1f8e88fc7b1cf.js": "./precache-manifest.c2e71f423cd50d2c33a1f8e88fc7b1cf.js",
+    "precache-manifest.faae4f0cb9c7a449889a1e95f33745ac.js": "./precache-manifest.faae4f0cb9c7a449889a1e95f33745ac.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.b4f72424.chunk.css.map": "./static/css/2.b4f72424.chunk.css.map",
-    "static/css/main.77e43c63.chunk.css.map": "./static/css/main.77e43c63.chunk.css.map",
-    "static/js/2.63ba7fee.chunk.js.LICENSE.txt": "./static/js/2.63ba7fee.chunk.js.LICENSE.txt",
+    "static/css/main.5a29de4c.chunk.css.map": "./static/css/main.5a29de4c.chunk.css.map",
+    "static/js/2.7585492b.chunk.js.LICENSE.txt": "./static/js/2.7585492b.chunk.js.LICENSE.txt",
     "static/media/API.png": "./static/media/API.23b806ab.png",
     "static/media/AboutBG.png": "./static/media/AboutBG.1efcca11.png",
     "static/media/Client-Menu.png": "./static/media/Client-Menu.4ed62a9e.png",
@@ -30,8 +30,7 @@
     "static/media/Restaurant API.png": "./static/media/Restaurant API.216d8907.png",
     "static/media/Scholarship System.png": "./static/media/Scholarship System.3a2949fe.png",
     "static/media/ScholarshipLogin.png": "./static/media/ScholarshipLogin.2385885c.png",
-    "static/media/ShainaR_Resume(1).pdf": "./static/media/ShainaR_Resume(1).af432f1d.pdf",
-    "static/media/ShainaR_Resume.pdf": "./static/media/ShainaR_Resume.19c03cd1.pdf",
+    "static/media/ShainaR_Resume.pdf": "./static/media/ShainaR_Resume.362619d7.pdf",
     "static/media/TutorFinder.png": "./static/media/TutorFinder.b281534f.png",
     "static/media/TutorFinderFront.png": "./static/media/TutorFinderFront.c70ebe22.png",
     "static/media/Vid.mov": "./static/media/Vid.03f43d60.mov",
@@ -41,14 +40,14 @@
     "static/media/holder.jpg": "./static/media/holder.fcd06364.jpg",
     "static/media/icon.png": "./static/media/icon.cc5c0f22.png",
     "static/media/loginLogo.png": "./static/media/loginLogo.76753e59.png",
-    "static/media/logo.svg": "./static/media/logo.5d5d9eef.svg",
+    "static/media/logo.svg": "./static/media/logo.ee7cd8ed.svg",
     "static/media/wip.png": "./static/media/wip.36ed4d38.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d704fb3.js",
     "static/css/2.b4f72424.chunk.css",
-    "static/js/2.63ba7fee.chunk.js",
-    "static/css/main.77e43c63.chunk.css",
-    "static/js/main.99f06ab9.chunk.js"
+    "static/js/2.7585492b.chunk.js",
+    "static/css/main.5a29de4c.chunk.css",
+    "static/js/main.4a2ea26d.chunk.js"
   ]
 }
