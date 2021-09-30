@@ -40,8 +40,9 @@ class About extends React.Component {
                                           Computer Science student - University of Calgary
                                     </h1>
                                     <p>
-                                          As a student who lacks relevant experience, I am driven to learn new things and am more open to new ideas and tasks. 
-                                          My attention to detail and persistence to get the job done has contributed to my success in academia. 
+                                Welcome! My name is Shaina. I am a graduating student with 1yr internship experience as a software developer. 
+                                That experience helped me realize what my next step in my career path is. I want to be a full stack developer! I am driven to learn new things and are open to new ideas and tasks.
+                                          My attention to detail and persistence to get the job done has also contributed to my success in academia. 
                                           Throughout my experience in UofC as a computer science student, I have learned to work as a team, 
                                           increased my technical skills, created software such as a scholarship system, designed a tutoring app and overall 
                                           expand my communication skills. I am looking to gain experience, expand my connections and meet new people. 
