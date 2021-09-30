@@ -1,5 +1,5 @@
 import React from "react"
-import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
+import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter, MDBCarouselCaption, MDBMask, MDBLightbox  } from 'mdbreact';
 
 function PortfolioModal(props) {
       return (
