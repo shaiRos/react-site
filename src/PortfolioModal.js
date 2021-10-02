@@ -9,7 +9,7 @@ function PortfolioModal(props) {
                               <h1 style={{fontSize: "2rem", fontFamily: "'Gentium Book Basic', serif"}}>{props.name}</h1>
                         </MDBModalHeader>
                         <MDBModalBody className="modal-body">
-                              <div>
+                            <div style={{position: "relative"}}>
                                 {props.content}    
                               </div>
                               

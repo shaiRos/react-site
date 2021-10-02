@@ -24,3 +24,19 @@ a.disabled {
     color: black;
     font-weight: bold;
 }
+
+.HCIProject .links {
+    text-align: right;
+}
+
+.HCIProject .project-nav-bar {
+    z-index: 1000;
+}
+
+.HCIProject h1 {
+    font-weight: bold;
+}
+
+.HCIProject h2,.HCIProject h3 {
+    text-align: left;
+}
