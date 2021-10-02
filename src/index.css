@@ -40,4 +40,8 @@ a.disabled {
     font-weight: bold;
 }
 
+.HCIProject #refinement-sketches .carousel-item, .HCIProject #refinement-sketches {
+    max-width: 700px;
+}
+
 
