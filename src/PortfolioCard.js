@@ -13,7 +13,7 @@ function PortfolioCard(props) {
                               alt="Project-Cover"
                               style={{maxWidth: 480}}
                         />
-                        <MDBMask className="flex-center" overlay="red-strong" style={{width:"100%",padding: "1rem", cursor: "pointer"}}>
+                        <MDBMask className="flex-center" overlay="indigo-strong" style={{width:"100%",padding: "1rem", cursor: "pointer"}}>
                               {/* max 450 characters ~69 words */}
                         <p className="white-text portfolio-card-text">{props.text}</p>
                         </MDBMask>
