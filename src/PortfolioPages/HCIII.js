@@ -725,7 +725,8 @@ function HCIModal() {
                 <p>
                     I mostly worked with coding the emoji AR unlock. We used Javascript and Aframe to implement it into AR mode. It was really fun learning all about Aframe and it having a user interface to modify
                     the models made it easier on us. The challenging part was binding the click events, hover events. We found that Web AR doesn't currently support touch-screen click events when in AR mode
-                    so we had to compromise and made use of a fuse cursor (the gaze cursor) in order to select emojis.
+                    so we had to compromise and made use of a fuse cursor (the gaze cursor) in order to select emojis. It was really fun playing around with the animations with the models.
+
                 </p>
             </div>
 
