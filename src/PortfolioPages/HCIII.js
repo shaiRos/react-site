@@ -20,9 +20,16 @@ function HCIModal() {
             <div class="d-flex project-nav-bar" style={{ backgroundColor: "#B0B0B0", position: "sticky", top: -18 }}>
                 <a class="nav-bar-links" href="#project-1">Me Button</a>
                 <a class="nav-bar-links" href="#project-2">Sensor/Touch Screen Unlock</a>
-                <a class="nav-bar-links disabled" href="#project-3">Project 3</a>
+                <a class="nav-bar-links" href="#project-3">Physical Prototype: ToioCleanse</a>
                 <a class="nav-bar-links disabled" href="#project-4">Project 4</a>
             </div>
+
+            <p class="mt-5 mb-0">All of these projects were done in a group with me along with:</p>
+            <p>
+                <a href="https://lunarias.github.io/#/projects" target="_blank"> Jessie Cai </a>|
+                <a href="https://ngthien-kim.wixsite.com/kim-portfolio" target="_blank"> Thien-Kim Nguyen </a>|
+                <a href=""> Hardeep Kaler </a>
+            </p>
 
             <a id="project-1"></a>
             <div class="mt-5" style={{ position: "relative" }}>
@@ -90,6 +97,7 @@ function HCIModal() {
                 <h2>Refinement Sketches</h2>
                 <div class="d-flex justify-content-center">
                     <MDBCarousel
+                    interval={false}
                     activeItem={1}
                     length={10}
                     showControls={true}
@@ -346,6 +354,7 @@ function HCIModal() {
                 <h2>Refinement Sketches</h2>
                 <div class="d-flex justify-content-center">
                     <MDBCarousel
+                        interval={false}
                         activeItem={1}
                         length={10}
                         showControls={true}
@@ -503,6 +512,232 @@ function HCIModal() {
                 <a class="ml-2" href="https://glitch.com/edit/#!/emoji-unlock-final" target="_blank">Emoji AR Code</a> |
                 <a class="ml-2" href="https://github.com/shaiRos/CPSC_581-HCI2-Sword_Lock" target="_blank">Sword Unlock Github</a>
             </div>
+
+
+
+            <a id="project-3"></a>
+            <div class="mt-5" style={{ position: "relative" }}>
+                <h1> Project #3 Physical Prototyping w/ Arduino</h1>
+
+                <a href="https://miro.com/app/board/o9J_lkpaRPU=/?invite_link_id=315470905198" target="_blank">Brainstorming/Sketches Board</a>
+                <div>
+                    <p>
+                        For this project, we created a physical prototype that solves an everyday problem. With the combination of toio robots and Arduino, our concept was to create
+                        a table cleaner that travels across the table and cleans it using a variety of attachments such as a brush, sponge and scooper. Just like the previous projects,
+                        we went through the sketching ideation/brainstorming process and creatively thinking of ways on how to build a physical prototype for this project.
+                    </p>
+                </div>
+                <h2>ToioCleanse Demo</h2>
+                <p>Arduino | Physical Prototyping</p>
+                <iframe src="https://drive.google.com/file/d/12b6WrbJm3lHdcp5zSMEBm9Y2SE_GAiJ8/preview" width="640" height="480" allow="autoplay"></iframe>
+
+                <h2>Process</h2>
+                <h4 style={{ textAlign: "left" }}>10 Concept Sketches</h4>
+                <MDBCarousel
+                    interval={false}
+                    activeItem={1}
+                    length={2}
+                    showControls={true}
+                    showIndicators={true}
+                    className="z-depth-1"
+                >
+                    <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                            <MDBView hover>
+                                <img
+                                    className="d-block w-100"
+                                    src={require("../img/portfolio/hci/project3/my10InitialSketches.png")}
+                                    alt="First slide"
+                                />
+                                <MDBMask className="flex-center" overlay="black-slight">
+                                    <p className="white-text">My 10 concept sketches</p>
+                                </MDBMask>
+                            </MDBView>
+                        </MDBCarouselItem>
+                        <MDBCarouselItem itemId="2">
+                            <MDBView hover>
+                                <img
+                                    className="d-block w-100"
+                                    src={require("../img/portfolio/hci/project3/Initial10PickedSketches.png")}
+                                    alt="Second slide"
+                                />
+                                <MDBMask className="flex-center" overlay="black-slight">
+                                    <p className="white-text">Picked 10 Sketches out of overall sketches of group members</p>
+                                </MDBMask>
+                            </MDBView>
+                            {/*                            <MDBCarouselCaption hover>
+                                <h3 className="h3-responsive">Strong mask</h3>
+                                <p>Second text</p>
+                            </MDBCarouselCaption>*/}
+                        </MDBCarouselItem>
+                    </MDBCarouselInner>
+                </MDBCarousel>
+                <p class="mt-3">
+                    For this project it was a bit hard for me to come up with ideas because of my inexperience with arduino and physical prototyping hardware in general. We were also limited
+                    with what was available to us. We acquired the toio robot that had wheels so it could travel and a select few of sensors for the arduino. The first that came to my mind
+                    was the concept of a "roomba" (an autonomous robotic vaccum). To my surprise 3 out of 4 of us came up with that concept so it was one of the sketches that was picked in this initial phase.
+                    A few notable ones were: a sensor that detects your sitting posture or if you have been sitting for too long, pills reminder, door package anti-thief (one of my sketches), and so on.
+                </p>
+                <h2>Refinement Sketches</h2>
+                <div class="d-flex justify-content-center">
+                    <MDBCarousel
+                        interval={false}
+                        activeItem={1}
+                        length={10}
+                        showControls={true}
+                        showIndicators={true}
+                        className="z-depth-1"
+                        id="refinement-sketches"
+                        onHoverStop={true}
+                    >
+                        <MDBCarouselInner>
+                            <MDBCarouselItem itemId="1">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_1.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Toio Roomba construction idea
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="2">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_2.jpg")}
+                                        alt="Second slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Toio Roomba attachments idea. This came from Hardeep.
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                                {/*                            <MDBCarouselCaption hover>
+                                <h3 className="h3-responsive">Strong mask</h3>
+                                <p>Second text</p>
+                            </MDBCarouselCaption>*/}
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="3">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_3.png")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Toio Roomba clamp/scooper idea by Kim.
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="4">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_4.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Toio Roomba construction idea
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="5">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_5.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Toio Roomba construction idea
+                                        </p>
+                                    </MDBMask>
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="6">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_6.png")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="7">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_7.png")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="8">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_8.jpg")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="9">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_9.png")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="10">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project3/refined_10.png")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                        </MDBCarouselInner>
+                    </MDBCarousel>
+                </div>
+                <p>
+                    These were 10 of the refined/variation sketches of the sword concept and the emoji AR. These sketches were focused on the how it would work and thinking more of
+                    what is possible with what was available to us. All of us already had the same idea for the sword implementation and most of the sketches here made it to the final implementation.
+                </p>
+
+                <h2>Implementation</h2>
+                <p>
+                    I mostly worked with coding the emoji AR unlock. We used Javascript and Aframe to implement it into AR mode. It was really fun learning all about Aframe and it having a user interface to modify
+                    the models made it easier on us. I worked on the animations, and aframe entity events. The challenging part was binding the click events, hover events. We found that Web AR doesn't currently support touch-screen click events when in AR mode
+                    so we had to compromise and made use of a fuse cursor (the gaze cursor) in order to select emojis. It was really fun playing around with the animations with the models.
+
+                </p>
+                <a href="https://miro.com/app/board/o9J_lrSsBTc=/?invite_link_id=917810586135" target="_blank">Brainstorming/Sketches Board</a> |
+                <a class="ml-2" href="https://emoji-unlock-final.glitch.me" target="_blank">Emoji AR Live Site</a> |
+                <a class="ml-2" href="https://glitch.com/edit/#!/emoji-unlock-final" target="_blank">Emoji AR Code</a> |
+                <a class="ml-2" href="https://github.com/shaiRos/CPSC_581-HCI2-Sword_Lock" target="_blank">Sword Unlock Github</a>
+            </div>
+
 
 
         </div>
