@@ -519,11 +519,11 @@ function HCIModal() {
                     </p>
                 </div>
                 <img
-                    src={require("../img/portfolio/hci/project3/Prototype/DeterminedToioCleanse.png")}
-                    class="shadow-1-strong rounded mb-4"
+                    src={require("../img/portfolio/hci/project3/Prototype/ToioCleanse.png")}
+                    class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
-                    style={{ height: "auto", width: "30%"}}
                 />
+
                 <h2 class="mb-0">ToioCleanse Demo</h2>
                 <p class="mt-0">Arduino | Physical Prototyping</p>
 
@@ -745,6 +745,11 @@ function HCIModal() {
                             class="w-100 shadow-1-strong rounded mb-4"
                             alt=""
                         />
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/sponge.jpg")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
                     </div>
 
                     <div class="col-lg-4 mb-4 mb-lg-0">
@@ -759,22 +764,33 @@ function HCIModal() {
                             class="w-100 shadow-1-strong rounded mb-4"
                             alt=""
                         />
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/DeterminedToioCleanse.png")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
                     </div>
 
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                            src={require("../img/portfolio/hci/project3/Prototype/Inside.jpg")}
                             class="w-100 shadow-1-strong rounded mb-4"
                             alt=""
                         />
 
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+                            src={require("../img/portfolio/hci/project3/Prototype/Brushes.jpg")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/wheels.jpg")}
                             class="w-100 shadow-1-strong rounded mb-4"
                             alt=""
                         />
                     </div>
                 </div>
+
                 <p>
                 To be honest we just constructed the prototype as we went along with making the functionality work. The hardest part was probably making sure the toio robots could support everything and it doesn't topple
                 over the container (a kleenex box) that holds the arduino.....which it did. We had to compromise and tape the toio wheels directly into to the box. Thankfully in an unconventional way, the directional controls worked pretty well despite it being
