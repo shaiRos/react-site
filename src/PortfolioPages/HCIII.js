@@ -45,6 +45,7 @@ function HCIModal() {
                         produce various designs within our group. We also applied brainstorming techniques and developed skills to implement UI programs.
                     </p>
                 </div>
+                <img class="img-fluid" src={require("../img/portfolio/hci/project1/project1_flowers.png")} />
                 <a id="hci-project1-demo"></a>
                 <h2>Final Product Demo</h2>
                 <iframe src="https://drive.google.com/file/d/1gb1vRZWaIco6c3QQWmQ_Bkf_RLBaDep8/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -256,22 +257,13 @@ function HCIModal() {
                         revealing facts it colors those sections. I contributed to at least half of the coding implementation, setting up the code, the flowers and its animations and overall, I really had fun
                         working with HTML/CSS/Jquery again. (You can check out our brainstorming/sketches board and the github repository using the links below. demo video above)
                 </p>
-                <div class="d-flex flex-column">
-                    <a href="https://miro.com/app/board/o9J_lwhbQ0w=/?invite_link_id=85137935326" target="_blank">Brainstorming/Sketches Board</a>
-                    <a href="https://github.com/shaiRos/Garden-of-facts" target="_blank">Github</a>
-                </div>
-                <a href="#hci-project1-demo">
-                    <img class="img-fluid" src={require("../img/portfolio/hci/project1/project1_flowers.png")} />
-                </a>
+                    <a href="https://miro.com/app/board/o9J_lwhbQ0w=/?invite_link_id=85137935326" target="_blank">Brainstorming/Sketches Board</a> | 
+                    <a href="https://github.com/shaiRos/Garden-of-facts" target="_blank"> Github</a>
             </div>
 
             <a id="project-2"></a>
             <div class="mt-5" style={{ position: "relative" }}>
                 <h1> Project #2 Sensor/Touch Phone Unlock</h1>
-{/*                <div class="d-flex flex-column links">
-                    <a href="https://miro.com/app/board/o9J_lrSsBTc=/?invite_link_id=917810586135" target="_blank">Brainstorming/Sketches Board</a>
-                </div>*/}
-                <a href="https://miro.com/app/board/o9J_lrSsBTc=/?invite_link_id=917810586135" target="_blank">Brainstorming/Sketches Board</a>
                 <div>
                     <p>
                         The concept was to create an alternative "slide-to-unlock" interface for the mobile phone making use of touch input and sensor input. In particular, we
@@ -519,7 +511,6 @@ function HCIModal() {
             <div class="mt-5" style={{ position: "relative" }}>
                 <h1> Project #3 Physical Prototyping w/ Arduino</h1>
 
-                <a href="https://miro.com/app/board/o9J_lkpaRPU=/?invite_link_id=315470905198" target="_blank">Brainstorming/Sketches Board</a>
                 <div>
                     <p>
                         For this project, we created a physical prototype that solves an everyday problem. With the combination of toio robots and Arduino, our concept was to create
@@ -527,9 +518,17 @@ function HCIModal() {
                         we went through the sketching ideation/brainstorming process and creatively thinking of ways on how to build a physical prototype for this project.
                     </p>
                 </div>
-                <h2>ToioCleanse Demo</h2>
-                <p>Arduino | Physical Prototyping</p>
+                <img
+                    src={require("../img/portfolio/hci/project3/Prototype/DeterminedToioCleanse.png")}
+                    class="shadow-1-strong rounded mb-4"
+                    alt=""
+                    style={{ height: "auto", width: "30%"}}
+                />
+                <h2 class="mb-0">ToioCleanse Demo</h2>
+                <p class="mt-0">Arduino | Physical Prototyping</p>
+
                 <iframe src="https://drive.google.com/file/d/12b6WrbJm3lHdcp5zSMEBm9Y2SE_GAiJ8/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
                 <h2>Process</h2>
                 <h4 style={{ textAlign: "left" }}>10 Concept Sketches</h4>
@@ -721,25 +720,74 @@ function HCIModal() {
                     </MDBCarousel>
                 </div>
                 <p>
-                    These were 10 of the refined/variation sketches of the sword concept and the emoji AR. These sketches were focused on the how it would work and thinking more of
-                    what is possible with what was available to us. All of us already had the same idea for the sword implementation and most of the sketches here made it to the final implementation.
+                    At this point, our concept was leaning more towards the roomba idea. This was also were the attachments idea came from which Hardeep sketched out for us. Also, more refinements on how
+                    it would be constructed.
                 </p>
 
                 <h2>Implementation</h2>
+
                 <p>
-                    I mostly worked with coding the emoji AR unlock. We used Javascript and Aframe to implement it into AR mode. It was really fun learning all about Aframe and it having a user interface to modify
-                    the models made it easier on us. I worked on the animations, and aframe entity events. The challenging part was binding the click events, hover events. We found that Web AR doesn't currently support touch-screen click events when in AR mode
-                    so we had to compromise and made use of a fuse cursor (the gaze cursor) in order to select emojis. It was really fun playing around with the animations with the models.
-
+                    We met in person and constructed the toioCleanse from the ground up. I had the arduino and the servos for a few days so I created <a href="https://github.com/shaiRos/Arduino-Btn-Activated-Servos" target="_blank">the code </a>
+                    that would activate the servos with a push of a button and created the housing for it so that it would not budge in our physical prototype. With the construction of the prototype though, it was all up to our creativeness and our skills in crafts. Kim brought materials for creating the attachments and she created the
+                    brushes with sewing cloths together. 
                 </p>
-                <a href="https://miro.com/app/board/o9J_lrSsBTc=/?invite_link_id=917810586135" target="_blank">Brainstorming/Sketches Board</a> |
-                <a class="ml-2" href="https://emoji-unlock-final.glitch.me" target="_blank">Emoji AR Live Site</a> |
-                <a class="ml-2" href="https://glitch.com/edit/#!/emoji-unlock-final" target="_blank">Emoji AR Code</a> |
-                <a class="ml-2" href="https://github.com/shaiRos/CPSC_581-HCI2-Sword_Lock" target="_blank">Sword Unlock Github</a>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/ArduinoWiringBare.jpg")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/ArduinoWiring.jpg")}
+                            
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/containerForTheArduino.jpg")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src={require("../img/portfolio/hci/project3/Prototype/toioCleanseWithScoop.jpg")}
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <p>
+                To be honest we just constructed the prototype as we went along with making the functionality work. The hardest part was probably making sure the toio robots could support everything and it doesn't topple
+                over the container (a kleenex box) that holds the arduino.....which it did. We had to compromise and tape the toio wheels directly into to the box. Thankfully in an unconventional way, the directional controls worked pretty well despite it being
+                attached directly to the box (since this was our worry. The toio robots could turn left or right individually just fine but in tandem, it was a bit iffy, especially if the box rotates with it)
+                We also found a <a href="https://github.com/tetunori/toioCoreCubeGampadControl/blob/master/README.md" target="_blank">resource </a> that could control the toio robots using a controller (in our case a playstation controller) which made our work easier.
+                </p>
+
+                <p>
+                    We had no experience with physical prototyping and arduino so I think this was a very challenging project so far but at the same time, it was probably one of my most memorable projects out of all of these.
+                </p>
+                <a href="https://miro.com/app/board/o9J_lkpaRPU=/?invite_link_id=315470905198" target="_blank">Brainstorming/Sketches Board</a> |
+                <a class="ml-2" href="https://github.com/shaiRos/Arduino-Btn-Activated-Servos" target="_blank">Arduino Servo Btn Github</a>
             </div>
-
-
-
         </div>
 
     )
