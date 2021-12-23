@@ -21,7 +21,7 @@ function HCIModal() {
                 <a class="nav-bar-links" href="#project-1">Me Button</a>
                 <a class="nav-bar-links" href="#project-2">Sensor/Touch Screen Unlock</a>
                 <a class="nav-bar-links" href="#project-3">Physical Prototype: ToioCleanse</a>
-                <a class="nav-bar-links disabled" href="#project-4">Project 4</a>
+                <a class="nav-bar-links" href="#project-4">Music Collaboration</a>
             </div>
 
             <p class="mt-5 mb-0">All of these projects were done in a group with me along with:</p>
@@ -803,6 +803,240 @@ function HCIModal() {
                 </p>
                 <a href="https://miro.com/app/board/o9J_lkpaRPU=/?invite_link_id=315470905198" target="_blank">Brainstorming/Sketches Board</a> |
                 <a class="ml-2" href="https://github.com/shaiRos/Arduino-Btn-Activated-Servos" target="_blank">Arduino Servo Btn Github</a>
+            </div>
+
+
+
+
+            <a id="project-4"></a>
+            <div class="mt-5" style={{ position: "relative" }}>
+                <h1> Project #4 Musical Collab Interface with Web Sockets</h1>
+
+                <div>
+                    <p>
+                        For this Project, we were tasked to create a novel interface that involves remote comunication and collaboration with other people. We present the Music Collaboration app
+                        where you can collaborate with your friends online to create music in real time! The software was created using javascript in node js glitch with sockets and the library tone.js for music audio.
+                    </p>
+                    <p><a class="ml-2" href="https://music-collab.glitch.me/" target="_blank">Try it here!</a></p>
+                </div>
+                <img
+                    src={require("../img/portfolio/hci/project4/AppCover.png")}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                />
+
+                <h2 class="mb-0">Music Collab App Demo</h2>
+                <p class="mt-0">Websockets (Sockets.io) | Tone.js | Hosted in Glitch </p>
+
+                <iframe src="https://drive.google.com/file/d/1OMQ7meporZiHLs7L0RInveKlmGlU9q6N/preview" width="80%" height="480" allow="autoplay"></iframe>
+
+
+                <h2>Process</h2>
+                <h4 style={{ textAlign: "left" }}>10 Concept Sketches</h4>
+                <MDBCarousel
+                    interval={false}
+                    activeItem={1}
+                    length={2}
+                    showControls={true}
+                    showIndicators={true}
+                    className="z-depth-1"
+                >
+                    <MDBCarouselInner>
+                        <MDBCarouselItem itemId="1">
+                            <MDBView hover>
+                                <img
+                                    className="d-block w-100"
+                                    src={require("../img/portfolio/hci/project4/my10InitialSketches.png")}
+                                    alt="First slide"
+                                />
+                                <MDBMask className="flex-center" overlay="black-slight">
+                                    <p className="white-text">My 10 concept sketches</p>
+                                </MDBMask>
+                            </MDBView>
+                        </MDBCarouselItem>
+                        <MDBCarouselItem itemId="2">
+                            <MDBView hover>
+                                <img
+                                    className="d-block w-100"
+                                    src={require("../img/portfolio/hci/project4/Initial10PickedSketches.png")}
+                                    alt="Second slide"
+                                />
+                                <MDBMask className="flex-center" overlay="black-slight">
+                                    <p className="white-text">Picked 10 Sketches out of overall sketches of group members</p>
+                                </MDBMask>
+                            </MDBView>
+                            {/*                            <MDBCarouselCaption hover>
+                                <h3 className="h3-responsive">Strong mask</h3>
+                                <p>Second text</p>
+                            </MDBCarouselCaption>*/}
+                        </MDBCarouselItem>
+                    </MDBCarouselInner>
+                </MDBCarousel>
+                <p class="mt-3">
+                    I think there were lots of creative ideas that I came up with. The one I was most passionate about was the one related to music or any coloring/drawing app. Thought that it would be really fun to create and enjoy with friends.
+                    One notable one is also Hardeep's idea of a recipe helper online which would be really useful for anyone who cooks. 
+                </p>
+                <h2>Refinement Sketches</h2>
+                <div class="d-flex justify-content-center">
+                    <MDBCarousel
+                        interval={false}
+                        activeItem={1}
+                        length={10}
+                        showControls={true}
+                        showIndicators={true}
+                        className="z-depth-1"
+                        id="refinement-sketches"
+                        onHoverStop={true}
+                    >
+                        <MDBCarouselInner>
+                            <MDBCarouselItem itemId="1">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_1.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            My idea for the music interface
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="2">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_2.jpg")}
+                                        alt="Second slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            My sketch of another representation of the notes? 
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                                {/*                            <MDBCarouselCaption hover>
+                                <h3 className="h3-responsive">Strong mask</h3>
+                                <p>Second text</p>
+                            </MDBCarouselCaption>*/}
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="3">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_3.png")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Hardeep's idea of sidebar for other options selection like instrument
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="4">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_4.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            Kim's idea of allowing different instruments
+                                        </p>
+                                    </MDBMask>
+                                </MDBView>
+
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="5">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_5.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                        <p className="white-text">
+                                            My grocery list interface idea
+                                        </p>
+                                    </MDBMask>
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="6">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_6.jpg")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="7">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_7.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="8">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_8.png")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="9">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_9.jpg")}
+                                        alt="First slide"
+                                    />
+                                    <MDBMask className="flex-center" overlay="black-slight">
+                                    </MDBMask>
+                                </MDBView>
+                            </MDBCarouselItem>
+                            <MDBCarouselItem itemId="10">
+                                <MDBView hover>
+                                    <img
+                                        className="d-block w-100"
+                                        src={require("../img/portfolio/hci/project4/refined_10.png")}
+                                        alt="First slide"
+                                    />
+                                </MDBView>
+                            </MDBCarouselItem>
+                        </MDBCarouselInner>
+                    </MDBCarousel>
+                </div>
+                <p>
+                    At this point, we haven't finalized our idea, but most of us focused our sketch in one idea, and that was the music collab idea. 
+                </p>
+
+                <h2>Implementation</h2>
+
+                <p>
+                    We learned about web sockets in tutorial and it was very helpful in the implementation since our app relied on it. As I thought about this idea, I was also researching what we could use
+                    to simulate music note audio using javascript and found a library called tone.js that does exactly that and more. I had a lot of time in my hands so I basically did the majority of the app implementation apart from the start screen and instructions page.
+                    But everything else from making the sockets work to figuring out how tone.js worked and the interface, I learned a lot by creating this. Tone js allowed the scheduling of notes at a specific time. Thankfully I already had some background on music so operating tone.js was not bad.
+                    This was a really fun project to do and I did not mind doing most of it since this was a project idea I was very eager to do anyways and will probably be working on it more for improvements just for fun.
+                </p>
+
+                <p>Storyboard/Concept Video in Adobe XD</p>
+                <iframe src="https://drive.google.com/file/d/1mkkk62uDhYCTCbxC0n2OG41AjEgktJ27/preview" width="80%" height="480" allow="autoplay"></iframe>
+                <p>Demo Vid and Presentation in the intro</p>
+
+                <a href="https://miro.com/app/board/o9J_lhfZ9xc=/?invite_link_id=396510559223" target="_blank">Brainstorming/Sketches Board</a> |
+                <a class="ml-2" href="https://glitch.com/edit/#!/music-collab" target="_blank">Glitch</a>
             </div>
         </div>
 
