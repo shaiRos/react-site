@@ -17,8 +17,28 @@ const modalList =  {
 }
 
 
+/*
+ * @id - the page to call when its card is clicked (page imported above with the name added to modalList)
+ *          can also be set to a web link if you want it to redirect to link instead of opening a modal page
+ * @name - name displayed at the top of the modal page
+ * 
+ * 
+ * */
+
 // order of appearance in the list reflects in the website
 const PortfolioCardsList = [
+    {
+        id: "https://shainamr.notion.site/CPSC-599-87-Data-Story-Project-Spotify-Top-2000-songs-1815437c4ef74251b3a7c0040156c364",
+        name: "Data Story",
+        img: "./img/portfolio/DataStory.png",
+        text: `My data story on "the top 2000 songs of spotify" dataset from kaggle. This was a final project for a data analysis course taken at University of Calgary`
+    },
+    {
+        id: 4,
+        name: "Human Computer Interactions II",
+        img: "./img/portfolio/HCI II.png",
+        text: `Multiple projects including web/mobile applications, Augmented reality, Physical Prototyping with Arduino, and a Web App using WebSockets. Creaated while taking the course Human Computer Interactions II F2021 at the University of Calgary. `
+    },
       {
             id:   0,
             name: "Application Programming Interface (API)",
@@ -50,13 +70,9 @@ const PortfolioCardsList = [
             img: "./img/portfolio/Other Projects.png",
             text: `A program that provides simple "micro-services" for word manipulation, and then dynamically compose them in different ways to achieve 
             some different desired data representations...`
-    },
-    {
-            id: 4,
-            name: "Human Computer Interactions II",
-            img: "./img/portfolio/HCI II.png",
-            text: `Projects done while taking the course Human Computer Interactions II F2021`
-      }
+    }
+
+
 ]
 
 

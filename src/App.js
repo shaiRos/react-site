@@ -20,7 +20,12 @@ function App() {
 	const [modalContent, setModalContent] = useState(()=>{})
 	const [modalProjectName, setModalProjectName] = useState("")
 
-      function toggleModal(projectKey, projectName) {
+	function toggleModal(projectKey, projectName) {
+		// if card is to redirect to a page instead of its own modal
+		if (typeof projectKey === 'string' && projectKey.includes('http')) {
+			window.open(projectKey)
+			return
+        }
 		// make modal visible and determine what content to show depending on what
 		// portfolio card was clicked using its projectKey
 		setModalVisibility((prevVal => !prevVal))

@@ -17,11 +17,14 @@ function Courses() {
 
 
       const courseList = [
+            { name: "Visualization and Analytics", link: "https://contacts.ucalgary.ca/info/cpsc/courses/w22/CPSC599.87?destination=courses"},
+            { name: "Introduction to InfoVisualization", link: "https://contacts.ucalgary.ca/info/cpsc/courses/f21/CPSC583?destination=courses%2Ff21"},
+            { name: "Introduction to Computer Graphics", link: "https://contacts.ucalgary.ca/info/cpsc/courses/f21/CPSC453?destination=courses%2Ff21"},
             {     name: "Computer Networks",                                  link: "http://contacts.ucalgary.ca/info/cpsc/courses/w20/CPSC441?destination=courses%2Fw20"},
             {     name: "Data Base Management Systems",                       link: "http://contacts.ucalgary.ca/info/cpsc/courses/w19/CPSC471?destination=courses%2Fw20"},
             {     name: "Data Structures, Algorithms and Their Analysis",     link: "http://contacts.ucalgary.ca/info/cpsc/courses/f18/CPSC331?destination=courses%2Ff18"},
             {     name: "Design and Analysis of Algorithms I",                link: "http://contacts.ucalgary.ca/info/cpsc/courses/f19/CPSC413?destination=courses%2Ff19"},
-            {     name: "Human-Computer Interaction I",                       link: "http://contacts.ucalgary.ca/info/cpsc/courses/f19/CPSC481?destination=courses%2Ff19"},
+            { name: "Human-Computer Interaction I & II", link: "https://contacts.ucalgary.ca/info/cpsc/courses/f21/CPSC581?destination=courses%2Ff21"},
             {     name: "Principles of Operating Systems",                    link: "http://contacts.ucalgary.ca/info/cpsc/courses/w20/CPSC457?destination=courses%2Fw20"},
             {     name: "Introduction to Computability",                      link: "http://contacts.ucalgary.ca/info/cpsc/courses/w19/CPSC313?destination=courses%2Fw19"},
             {     name: "Computing Machinery II",                             link: "http://contacts.ucalgary.ca/info/cpsc/courses/w19/CPSC359?destination=courses%2Fw19"},
@@ -30,7 +33,7 @@ function Courses() {
 
       const coursesStyle = {
             fontSize:"1.5rem",
-            maxWidth: 900
+            maxWidth: 1200
       }
       let courses = []
       if (window.innerWidth > 550) {

@@ -37,16 +37,16 @@ class About extends React.Component {
                               </MDBCol>
                               <Media.Body className="text-black text-center col-md-8 align-self-center" style={{ padding: "5% 5%",fontSize: "1.2rem" }}>
                                     <h1 style={{fontSize: "3rem", fontFamily: "'Gentium Book Basic', serif"}}>
-                                          Computer Science student - University of Calgary
+                                          BSC: Computer Science Graduate - University of Calgary
                                     </h1>
                                     <p>
-                                Welcome! My name is Shaina. I am a graduating student with 1yr internship experience as a software developer. 
-                                That experience helped me realize what my next step in my career path is. I want to be a full stack developer! I am driven to learn new things and are open to new ideas and tasks.
+                                Welcome! My name is Shaina. I did my undergrad as a computer science major at the University of Calgary with 1yr internship experience as a software developer.
+                                That experience has helped me explore what my strengths are and also introduced me to the world of data analysis.
+                                My strengths are not only in my analytical and problem-solving skills but also in my design and creative thinking skills.
+                                I am driven to learn new things and are open to new ideas and tasks.
                                           My attention to detail and persistence to get the job done has also contributed to my success in academia. 
-                                          Throughout my experience in UofC as a computer science student, I have learned to work as a team, 
-                                          increased my technical skills, created software such as a scholarship system, designed a tutoring app and overall 
-                                          expand my communication skills. I am looking to gain experience, expand my connections and meet new people. 
-                                          I am most excited on being able to apply my creative ideas and technical skills I have learned into creating and advancing our technology!
+                                          I am looking to gain experience, expand my connections and meet new people. 
+                                          Overall, I am most excited on being able to apply my creative ideas and technical skills I have learned into creating and advancing our technology! Outside of this, I enjoy video games, learning the piano, and reading fictional books.
                                           </p>
                                     <p>
                                           <a href={require("./img/ShainaR_Resume.pdf")} target="_blank " rel="noopener noreferrer">
