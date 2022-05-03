@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.6e6d88ea.chunk.css",
-    "main.js": "./static/js/main.5986d505.chunk.js",
-    "main.js.map": "./static/js/main.5986d505.chunk.js.map",
+    "main.js": "./static/js/main.5eaab167.chunk.js",
+    "main.js.map": "./static/js/main.5eaab167.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.4d704fb3.js",
     "runtime-main.js.map": "./static/js/runtime-main.4d704fb3.js.map",
     "static/css/2.e8bdc2c8.chunk.css": "./static/css/2.e8bdc2c8.chunk.css",
-    "static/js/2.2704fe89.chunk.js": "./static/js/2.2704fe89.chunk.js",
-    "static/js/2.2704fe89.chunk.js.map": "./static/js/2.2704fe89.chunk.js.map",
+    "static/js/2.f3866936.chunk.js": "./static/js/2.f3866936.chunk.js",
+    "static/js/2.f3866936.chunk.js.map": "./static/js/2.f3866936.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.146f840b8cf3e5bbe15c05f6ce68ae06.js": "./precache-manifest.146f840b8cf3e5bbe15c05f6ce68ae06.js",
+    "precache-manifest.191371d67efa6b70f10b9e7765bf6137.js": "./precache-manifest.191371d67efa6b70f10b9e7765bf6137.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e8bdc2c8.chunk.css.map": "./static/css/2.e8bdc2c8.chunk.css.map",
     "static/css/main.6e6d88ea.chunk.css.map": "./static/css/main.6e6d88ea.chunk.css.map",
-    "static/js/2.2704fe89.chunk.js.LICENSE.txt": "./static/js/2.2704fe89.chunk.js.LICENSE.txt",
+    "static/js/2.f3866936.chunk.js.LICENSE.txt": "./static/js/2.f3866936.chunk.js.LICENSE.txt",
     "static/media/API.png": "./static/media/API.23b806ab.png",
     "static/media/AboutBG.png": "./static/media/AboutBG.1efcca11.png",
     "static/media/AppCover.png": "./static/media/AppCover.6a0e0ae6.png",
@@ -23,9 +23,10 @@
     "static/media/Client-Menu.png": "./static/media/Client-Menu.4ed62a9e.png",
     "static/media/Course Postings.jpg": "./static/media/Course Postings.bcd58493.jpg",
     "static/media/Cover.jpg": "./static/media/Cover.8512c303.jpg",
+    "static/media/DataStory.png": "./static/media/DataStory.05b292c1.png",
     "static/media/DeterminedToioCleanse.png": "./static/media/DeterminedToioCleanse.db5917f3.png",
     "static/media/ERD.png": "./static/media/ERD.d2421795.png",
-    "static/media/HCI II.png": "./static/media/HCI II.0ac0bb0c.png",
+    "static/media/HCI II.png": "./static/media/HCI II.0f7e5303.png",
     "static/media/Initial10PickedSketches.png": "./static/media/Initial10PickedSketches.ce78f497.png",
     "static/media/Inside.jpg": "./static/media/Inside.d2a63eb8.jpg",
     "static/media/Maps.jpg": "./static/media/Maps.bb843f30.jpg",
@@ -94,8 +95,8 @@
   "entrypoints": [
     "static/js/runtime-main.4d704fb3.js",
     "static/css/2.e8bdc2c8.chunk.css",
-    "static/js/2.2704fe89.chunk.js",
+    "static/js/2.f3866936.chunk.js",
     "static/css/main.6e6d88ea.chunk.css",
-    "static/js/main.5986d505.chunk.js"
+    "static/js/main.5eaab167.chunk.js"
   ]
 }
