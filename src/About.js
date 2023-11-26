@@ -49,7 +49,7 @@ class About extends React.Component {
                                           Overall, I am most excited on being able to apply my creative ideas and technical skills I have learned into creating and advancing our technology! Outside of this, I enjoy video games, learning the piano, and reading fictional books.
                                           </p>
                                     <p>
-                                          <a href={require("./img/ShainaR_Resume.pdf")} target="_blank " rel="noopener noreferrer">
+                                          <a href={require("./img/Resume.pdf")} target="_blank " rel="noopener noreferrer">
                                                 <button type="button" className="btn btn-unique" >
                                                       See My Resume
                                                 </button>      
